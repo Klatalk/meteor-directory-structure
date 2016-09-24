@@ -1,0 +1,22 @@
+{
+  "name": "aqua",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.4.1",
+    "meteor-node-stubs": "~0.2.0",
+    "rucksack-css": "^0.8.6"
+  },
+	"postcss": {
+	    "plugins": {
+	      	"rucksack-css": {},
+	      	"autoprefixer": {
+	        	"browsers": [
+	          		"last 5 versions"
+	        	]
+	      	}
+	    }
+	}
+}
