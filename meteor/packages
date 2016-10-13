@@ -25,5 +25,6 @@ email
 check
 kadira:flow-router
 kadira:blaze-layout
-spiderable
-tomwasd:history-polyfill
+
+#spiderable
+#tomwasd:history-polyfill
