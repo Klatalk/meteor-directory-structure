@@ -1,17 +1,1 @@
 body{background:#ccc;}
-
-.container{
-	min-height:100vh; width:100%; position:relative; top:150px;
-	.side{
-		width:300px; height:300px; opacity:0.5; margin:auto; display:flex; justify-content: center; align-content: center; flex-direction: column;
-		transform-style: preserve-3d; perspective-origin: center;
-		h1{font-size:100px; text-align: center;}
-	}
-	.side1{background:red; }
-	.side2{background: blue;}
-	.side3{background: green;}
-	.side4{background: yellow;}
-	.side5{background: cyan;}
-	.side6{background: pink;}
-	.side6, .side4, .side5{opacity:0;}
-}
